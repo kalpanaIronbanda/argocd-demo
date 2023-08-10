@@ -16,8 +16,8 @@ spec:
         app:  docker-app
     spec:
       containers:
-      - name:  docker-app
-        image: 315073111691.dkr.ecr.us-east-1.amazonaws.com/dockerrepo:1
+      - name: nginx
+        image: nginx:1.16.1
         ports:
         - containerPort:  80
           name:  docker-app
